@@ -43,7 +43,7 @@
     position: absolute;
     top: 40%;
     left: -1%;
-    font-size: 9em;
+    font-size1: 9em;
     font-weight: 800;
     font-style: italic;
     color: rgba(255, 255, 255, 0.04);
@@ -95,7 +95,7 @@
     color: #fff;
 }
 
-.container1 .card1 .contentBx .size,
+.container1 .card1 .contentBx .size1,
 .container1 .card1 .contentBx .color {
     display: flex;
     justify-content: center;
@@ -106,7 +106,7 @@
     visibility: hidden;
 }
 
-.container1 .card1:hover .contentBx .size {
+.container1 .card1:hover .contentBx .size1 {
     opacity: 1;
     visibility: visible;
     transition-delay: .5s;
@@ -118,7 +118,7 @@
     transition-delay: .6s;
 }
 
-.container1 .card1 .contentBx .size h3,
+.container1 .card1 .contentBx .size1 h3,
 .container1 .card1 .contentBx .color h3 {
     color: white;
     font-weight: 300;
@@ -128,12 +128,12 @@
     margin-right: 10px;
 }
 
-.container1 .card1 .contentBx .size span {
+.container1 .card1 .contentBx .size1 span {
     width: 26px;
     height: 26px;
     text-align: center;
     line-height: 26px;
-    font-size: 14px;
+    font-size1: 14px;
     display: inline-block;
     color: #111;
     background: #fff;
@@ -144,8 +144,8 @@
     cursor: pointer;
 }
 
-.container1 .card1 .contentBx .size span:hover {  /* other bug */
-    background: #B90000;
+.container1 .card1 .contentBx .size1 span:hover {  /* other bug */
+    background: #6d378e;
 }
 
 .container1 .card1 .contentBx .color span {
