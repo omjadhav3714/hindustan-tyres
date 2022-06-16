@@ -15,21 +15,26 @@
     box-shadow: 5px 5px 15px rgba(186, 126, 126, .5);
     border-radius: 10px;
 }
-.cards{
+
+.cards {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
-.pick,.desc {
+
+.pick,
+.desc {
     font-size: 0.6em;
     color: #ba7e7e;
     letter-spacing: 1px;
 }
-.prod_sub{
+
+.prod_sub {
     font-size: 1.2em;
     color: #4e4e4e;
     margin-top: -5px;
 }
+
 .prod_head {
     color: #c3a1a0;
     margin-top: -5px;
@@ -40,29 +45,39 @@
     margin-top: 16px;
     margin-left: 5vw;
 }
+
 .slideshow-buttons {
     top: 70%;
     display: none;
 }
-.one, .two, .three, .four {
+
+.one,
+.two,
+.three,
+.four {
     position: absolute;
     width: 7px;
     height: 7px;
     border-radius: 50%;
     background: #6d378e;
 }
+
 .one {
     left: 22%;
 }
+
 .two {
     left: 27%;
 }
+
 .three {
     left: 32%;
 }
+
 .four {
     left: 37%;
 }
+
 .product {
     position: absolute;
     width: 40%;
@@ -73,6 +88,7 @@
     top: 10%;
     left: 56%;
 }
+
 .desc {
     text-transform: none;
     letter-spacing: 0;
@@ -83,7 +99,9 @@
     margin-right: 25px;
     text-align: justify;
 }
-.like,.add {
+
+.like,
+.add {
     background: #6d378e;
     padding: 10px;
     display: inline-block;
@@ -96,16 +114,20 @@
     color: #f5f5f5;
     cursor: pointer;
 }
+
 button:hover {
     background: #ba7e7e;
     transition: all 0.4s ease-in-out;
 }
+
 .add {
     width: 67%;
 }
+
 .like {
     width: 22%;
 }
+
 .sizes {
     display: grid;
     color: #6d378e;
@@ -115,29 +137,35 @@ button:hover {
     margin-left: 7.7vw;
     margin-top: 5px;
 }
+
 .sizes:hover {
     cursor: pointer;
 }
+
 .pick {
     margin-top: 11px;
     margin-bottom: 0;
     margin-left: 7.7vw;
 }
+
 .size {
     padding: 9px;
     border: 1px solid #6d378e;
     font-size: 0.7em;
     text-align: center;
 }
+
 .size:hover {
     background: #ba7e7e;
     color: #f5f5f5;
     transition: all 0.4s ease-in-out;
 }
+
 .focus {
     background: #ba7e7e;
     color: #f5f5f5;
 }
+
 footer {
     position: absolute;
     bottom: 0;
@@ -146,33 +174,39 @@ footer {
     text-transform: uppercase;
     padding: 10px;
 }
+
 footer p {
     letter-spacing: 3px;
 }
+
 footer a {
     color: #fff;
     text-decoration: none;
 }
+
 footer a:hover {
     color: #7d7d7d;
 }
 
 @media (max-width: 420px) {
-    .product{
+    .product {
         position: relative;
         top: 10px;
         left: 0;
         width: auto;
     }
-    .container2{
+
+    .container2 {
         padding-bottom: 0;
         margin: 0;
-        
+
     }
-    .cards{
+
+    .cards {
 
         margin-bottom: 13px;
     }
+
     .prod_img {
         max-width: 100%;
         margin-top: 0px;
