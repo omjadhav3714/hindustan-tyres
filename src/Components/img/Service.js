@@ -8,7 +8,7 @@ const Service = () => {
         <div class="container1">
         <div class="card1">
             <div class="imgBx">
-                <img src={tyre} alt="nike-air-shoe"/>
+                <img src={tyre} alt="tyre"/>
             </div>
 
             <div class="contentBx">
