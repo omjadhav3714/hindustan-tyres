@@ -146,8 +146,14 @@
     cursor: pointer;
 }
 
+<<<<<<< HEAD:src/Components/css/service.css
+.container1 .card1 .contentBx .size span:hover {
+    /* other bug */
+    background: #B90000;
+=======
 .container1 .card1 .contentBx .size1 span:hover {  /* other bug */
     background: #6d378e;
+>>>>>>> e25c7eca6cdf3a8452b3f9686b7e9bea01786af1:src/Components/service.css
 }
 
 .container1 .card1 .contentBx .color span {
