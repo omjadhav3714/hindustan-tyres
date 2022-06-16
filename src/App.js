@@ -3,6 +3,7 @@ import Contactus from "./Components/Contactus";
 import Header from "./Components/Header";
 import Main from "./Components/Main";
 import About from "./Components/About";
+import Footer from './Components/Footer'
 import ProductDetail from "./Components/Product/ProductDetail";
 
 function App() {
@@ -16,6 +17,8 @@ function App() {
         <Route exact path="/contactus" component={Contactus} />
         <Route exact path="/aboutus" component={About} />
       </Switch>
+      
+      <Footer/>
     </>
   );
 }
