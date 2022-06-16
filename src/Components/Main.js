@@ -5,6 +5,7 @@ import "../Components/css/maincons.css";
 import "../Components/css/bootstrap.css";
 import bg1 from "./img/tyre.png";
 import bg2 from "./img/tyre2.png";
+import Service from "./img/Service";
 
 const Main = () => {
   return (
@@ -67,12 +68,12 @@ const Main = () => {
         </div>
       </div>
 
-      <div className="container mt-5 mb-5">
+      <div className="container mt-5 mb-5" >
         <center>
           <h1>Our Partners</h1>
         </center>
         <br />
-        <div className="row">
+        <div className="row" > 
           <div className="col-12 col-md-6 col-lg-4  col-md-offset-6">
             <div className="card border-0 d-flex justify-content-center h-100">
               <img src="https://lh3.googleusercontent.com/fife/AAWUweX-LkOtH42qvJaNUcdcFeExwWZmJJLq0ldy-x0ggt82Qziue2C3lQmpPT6rq5X_CyUCNi2kms6r6EsUiXa4S3VORRBFibd1Bmq0FMnGHQ-Y-723T5jdoRBCLiPZ7pOL5pJ6uSwBIiZQYnh-3Zwzcmj7g2GJdGvSC5r68Hkvpy940EP_NKf5-1b_9Ni_6l1Wce70VnTS414K3KteqZ_y1YZ_R4-xp8lhbfHohEhm0mQF1dYF58y9m9qVCLAhiVKT_pYXECfR5g53iTWOHdBp3sHHzNtc6MO4G4B6nLYTzeyiryzI2YuznWNTVnGMi92CdglxyiB43FVljZFXZTUayPUXFFqMMLxVlZk05ESgNPJCwec_zqd4Sh2PcKShqPLtEPIsiyNWtaKsySCIx47SY-pe5ULevBBi-nNHiqq3TNqXL5chUbgdpjuK3XXcgbm6Nc-UJ6BcWZ3EIXWXdy9zO3qNKCJBMlYvDDSkPxTA9OkB80KMvuIvkeNzymcDBL7sZP-QtQSWiahnH1509Zj4vPsSt_yesBDaUxO2RoNRY9wMTST7CpcflB_g1CKeZMPYtomA_l1wh67BfIBfe6HPBvijNsI5y1hPc62ORcyt8o9UcAjFJEUQF_tRQ9PFTIW_qfdo-RG1P1rwRvGtuV8nwFGLyrXsYXR1-rWsNAVK0Fuagn3tlPMfGTeWu4v9l0QMVIu0uAQseeBETwIZK7MdWn97HngqYhE99-tQahSKblFF66RcX-mmqnHF-D5319AOrIQemMmcnsuuiuWcY0pShZqK-YggLPS5qrp6Dn-OzNCPpLjBPeeU1y2uyzsKkspS4Awv0bWNiC33s_Smbt_Otkuw-9xusF9DrCsYulR7CMx86abWgyn0BzaJZswhr_6AQu3_MybWfB2sJWVFTjnBAyl_eibyqOrbeAlNbBUnBvkbjB7nd7kOw5Ujcfd9Y5qofMCdD9uo_gLW1knYUT9401-eo5soNh-u9mrNzRm2YvAc4v67Bb86A6ruPeceexEs6rCxPcuKzzD3oggB-gRK2dOZ5tLoO8os8T4vDkC1Z4PUE9uX8t4dzn2tBt_zMExNfk_PIUpLtpZwbcjuH_Cxic1JZfvRrbFPdO7KZnKiv8CspOE5yIc_l6pSU1HfR_gvscs_kkmDKGQOLqlXLYPtUPYi4zPjwI5WA4WLb-4pZeJjl6ISg2azW2hL-1S5dY2rV_CnKpBPnca_evfL55bb6h80IgDlCW8HcP8H3LblzISRk4BGQT2_t6Jnn4_Q9C1c-YJR_bfshQu2Au2vGk6rC2-XA7_XD9TPNDJWA3qiGoTVfw-C1wpK2GFYRJ1_wbBougA_l4ei08JPKwS3sCAUyx6-5-mSmfILqwBYk-ZFD4GAjmjonOip=w1920-h942" />
@@ -110,6 +111,7 @@ const Main = () => {
           </div>
         </div>
       </div>
+      <Service/>
     </>
   );
 };
