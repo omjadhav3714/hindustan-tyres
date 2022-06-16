@@ -146,7 +146,8 @@
     cursor: pointer;
 }
 
-.container1 .card1 .contentBx .size1 span:hover {  /* other bug */
+.container1 .card1 .contentBx .size1 span:hover {
+    /* other bug */
     background: #6d378e;
 }
 

@@ -2,8 +2,8 @@
 import React from 'react'
 import '../Components/css/theme.css';
 import '../Components/css/maincons.css';
-
-import '../Components/css/bootstrap.css';
+import '../Components/css/bootstrap.css'
+;
 const Header = () => {
   return (
 
@@ -28,9 +28,6 @@ const Header = () => {
                 <li className="nav-item">
                   <a href="#" className="nav-link">Services</a>
                 </li>
-                {/* <li className="nav-item">
-              <a href="blog.html" className="nav-link">News</a>
-            </li> */}
                 <li className="nav-item">
                   <a href="/contactus" className="nav-link">Contact</a>
                 </li>
