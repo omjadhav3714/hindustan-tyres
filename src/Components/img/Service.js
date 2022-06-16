@@ -30,7 +30,7 @@ const Service = () => {
                     <span></span>
                     <span></span>
                 </div> */}
-                <a href="#">Buy Now</a>
+                <a href="#">View more</a>
             </div>
 
         </div>
