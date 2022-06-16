@@ -1,6 +1,6 @@
 import React from "react";
 import "./service.css";
-import tyre from "../img/tyre_img.png";
+import tyre from "../Components/img/tyre_img.png";
 const Service = () => {
   return (
     <>
@@ -21,7 +21,18 @@ const Service = () => {
               <span>9</span>
               <span>10</span>
             </div>
-            {/* 
+
+            <div class="contentBx">
+              <h2>Apollo tyre</h2>
+
+              <div class="size1">
+                <h3>size1 :</h3>
+                <span>7</span>
+                <span>8</span>
+                <span>9</span>
+                <span>10</span>
+              </div>
+              {/* 
                 <div class="color">
 
                     <h3>Color :</h3>
@@ -29,7 +40,8 @@ const Service = () => {
                     <span></span>
                     <span></span>
                 </div> */}
-            <a href="#">View more</a>
+              <a href="/product-detail">View more</a>
+            </div>
           </div>
         </div>
       </div>

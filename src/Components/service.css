@@ -2,17 +2,19 @@
     position: relative;
     display: flex;
     flex-direction: row;
-    
+
     margin-left: 20px;
     flex-wrap: wrap;
     align-items: center;
     margin-bottom: 15px;
 }
-.heading{
+
+.heading {
     display: flex;
     justify-content: center;
     font-family: "Work Sans", sans-serif;
 }
+
 .container1 .card1 {
     position: relative;
     width: 320px;
@@ -43,7 +45,7 @@
     position: absolute;
     top: 40%;
     left: -1%;
-    font-size: 9em;
+    font-size1: 9em;
     font-weight: 800;
     font-style: italic;
     color: rgba(255, 255, 255, 0.04);
@@ -95,7 +97,7 @@
     color: #fff;
 }
 
-.container1 .card1 .contentBx .size,
+.container1 .card1 .contentBx .size1,
 .container1 .card1 .contentBx .color {
     display: flex;
     justify-content: center;
@@ -106,7 +108,7 @@
     visibility: hidden;
 }
 
-.container1 .card1:hover .contentBx .size {
+.container1 .card1:hover .contentBx .size1 {
     opacity: 1;
     visibility: visible;
     transition-delay: .5s;
@@ -118,7 +120,7 @@
     transition-delay: .6s;
 }
 
-.container1 .card1 .contentBx .size h3,
+.container1 .card1 .contentBx .size1 h3,
 .container1 .card1 .contentBx .color h3 {
     color: white;
     font-weight: 300;
@@ -128,12 +130,12 @@
     margin-right: 10px;
 }
 
-.container1 .card1 .contentBx .size span {
+.container1 .card1 .contentBx .size1 span {
     width: 26px;
     height: 26px;
     text-align: center;
     line-height: 26px;
-    font-size: 14px;
+    font-size1: 14px;
     display: inline-block;
     color: #111;
     background: #fff;
@@ -144,8 +146,14 @@
     cursor: pointer;
 }
 
-.container1 .card1 .contentBx .size span:hover {  /* other bug */
+<<<<<<< HEAD:src/Components/css/service.css
+.container1 .card1 .contentBx .size span:hover {
+    /* other bug */
     background: #B90000;
+=======
+.container1 .card1 .contentBx .size1 span:hover {  /* other bug */
+    background: #6d378e;
+>>>>>>> e25c7eca6cdf3a8452b3f9686b7e9bea01786af1:src/Components/service.css
 }
 
 .container1 .card1 .contentBx .color span {
@@ -158,15 +166,15 @@
 }
 
 .container1 .card1 .contentBx .color span:nth-child(2) {
-     background: #1BBFE9;
+    background: #1BBFE9;
 }
 
 .container1 .card1 .contentBx .color span:nth-child(3) {
-     background: #1B2FE9;
+    background: #1B2FE9;
 }
 
 .container1 .card1 .contentBx .color span:nth-child(4) {
-     background: #080481;
+    background: #080481;
 }
 
 .container1 .card1 .contentBx a {
@@ -187,11 +195,11 @@
     opacity: 1;
     transform: translateY(0px);
     transition-delay: .7s;
-} 
+}
 
 
 @media (max-width: 420px) {
-    .container1{
+    .container1 {
         margin-left: 0px;
         flex-direction: column;
         justify-content: center;
