@@ -2,8 +2,9 @@
     position: relative;
     display: flex;
     flex-direction: row;
-
-    margin-left: 20px;
+    width: 100%;
+    gap:15px;
+    justify-content: center;
     flex-wrap: wrap;
     align-items: center;
     margin-bottom: 15px;
@@ -31,7 +32,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: #6d378e;
+    background: #6b55f9;
     clip-path: circle(150px at 80% 20%);
     transition: 0.5s ease-in-out;
 }
@@ -146,14 +147,8 @@
     cursor: pointer;
 }
 
-<<<<<<< HEAD:src/Components/css/service.css
-.container1 .card1 .contentBx .size span:hover {
-    /* other bug */
-    background: #B90000;
-=======
 .container1 .card1 .contentBx .size1 span:hover {  /* other bug */
     background: #6d378e;
->>>>>>> e25c7eca6cdf3a8452b3f9686b7e9bea01786af1:src/Components/service.css
 }
 
 .container1 .card1 .contentBx .color span {

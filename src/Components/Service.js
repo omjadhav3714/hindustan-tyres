@@ -4,6 +4,8 @@ import tyre from "../Components/img/tyre_img.png";
 const Service = () => {
   return (
     <>
+      <br />
+      <br />
       <h1 className="heading">Tyres</h1>
       <div class="container1">
         <div class="card1">
