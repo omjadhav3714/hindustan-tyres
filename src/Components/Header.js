@@ -1,8 +1,8 @@
 import React from 'react'
 import '../Components/css/theme.css';
 import '../Components/css/maincons.css';
-
-import '../Components/css/bootstrap.css';
+import '../Components/css/bootstrap.css'
+;
 const Header = () => {
   return (
     
