@@ -45,8 +45,8 @@ const Allservice = () => {
         <button onClick={() =>onclick("Yokohama")} className="but">Yokohama</button>
       </div>
       <h1 className="heading">Tyres</h1>
-        {data1.map((item)=>(
       <div class="container1">
+        {data1.map((item)=>(
         <div class="card1">
           <div class="imgBx">
             <img src={item.image[0].url} alt="tyre" />
@@ -65,8 +65,8 @@ const Allservice = () => {
             <a href="/product-detail">View more</a>
           </div>
         </div>
-      </div>
 ))}
+      </div>
     </>
   );
 };
