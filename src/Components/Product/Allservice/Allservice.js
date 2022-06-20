@@ -2,8 +2,8 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import "../../service.css";
 import React, { useEffect, useState } from 'react';
-import './allservice.css'
 import { db } from "../../../firebase";
+import './allservice.css'
 
 const Allservice = () => {
   var [data1, onclick1] = useState([]);
@@ -57,7 +57,7 @@ const Allservice = () => {
                 <span>9</span>
                 <span>10</span>
               </div>
-              <a href="/product-detail">View more</a>
+              <a href={"/product-detail/"+item.id}>View more</a>
             </div>
           </div>
         ))}
