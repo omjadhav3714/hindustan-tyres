@@ -44,6 +44,13 @@
 
 .prod_img {
     width: 650px;
+    
+    margin-top: 16px;
+    margin-left: 5vw;
+}
+.prod_img1 {
+    /* width: 650px; */
+    max-width: 100%;
     margin-top: 16px;
     margin-left: 5vw;
 }
