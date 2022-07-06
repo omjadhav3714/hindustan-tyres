@@ -77,6 +77,31 @@ const ProductDetail = () => {
             <h1 className="prod_sub">Pattern : {data.pattern}</h1>
             <h2 className="prod_head">Available : {data.available}</h2>
             <p className="desc">{data.description}</p>
+            {/* <br/> */}
+            <div className="tab">  
+          <table className="tablemain">
+      <thead>
+        <tr>
+          <th className="firsttab">CODE</th>
+          <th>STOCK</th>
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>CES-9000</td>
+          <td>50mt</td>
+
+        </tr>
+           <tr>
+          <td>CES-9000</td>
+          <td>50mt</td>
+          </tr>
+
+        
+      </tbody>
+    </table>
+    </div>
             <div className="buttons">
               <button className="add">Add to Cart</button>
               <button className="like">

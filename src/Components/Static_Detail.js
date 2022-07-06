@@ -81,6 +81,31 @@ const id=useParams();
             <h1 className="prod_sub">Pattern : {item.pattern}</h1>
             {/* <h2 className="prod_head">Available : {item.available}</h2> */}
             <p className="desc">{item.desc}</p>
+            <br/>
+            <div className="tab">  
+          <table>
+      <thead>
+        <tr>
+          <th className="firsttab">CODE</th>
+          <th>STOCK</th>
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>CES-9000</td>
+          <td>50mt</td>
+
+        </tr>
+           <tr>
+          <td>CES-9000</td>
+          <td>50mt</td>
+          </tr>
+
+        
+      </tbody>
+    </table>
+    </div>
             <div className="buttons">
               <button className="add">Add to Cart</button>
               <button className="like">
