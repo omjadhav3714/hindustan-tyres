@@ -54,25 +54,17 @@ const Service = () => {
       <h1 className="heading">Tyres</h1>
       <div class="container1">
         {data.map((item) => (
-        <div class="card1">
-          <div class="imgBx">
-            <img src={item.image} alt="tyre" />
-          </div>
-
-          <div class="contentBx">
-            <h2>{item.name}</h2>
-
-            <div class="size1">
-              <h3>size1 :</h3>
-              <span>7</span>
-              <span>8</span>
-              <span>9</span>
-              <span>10</span>
+          <div class="card1">
+            <div class="imgBx">
+              <img src={item.image} alt="tyre" />
             </div>
-            <a href={"/product-static/"+item.id}>View more</a>
+
+            <div class="contentBx">
+              <h2>{item.name}</h2>
+              <a href={"/allservice"}>View more</a>
+            </div>
           </div>
-        </div>
-))}
+        ))}
       </div>
     </>
   );

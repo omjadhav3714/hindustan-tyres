@@ -1,5 +1,4 @@
-.button
-{
+.button {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -9,7 +8,8 @@
     gap: 23px;
     flex-wrap: wrap;
 }
-.button>.but{
+
+.button>.but {
     border-radius: 17px;
     height: 38px;
     width: auto;
@@ -22,9 +22,18 @@
     cursor: pointer;
     transition: .5s ease-in;
 }
-.button>.but:hover{
+
+.button>.but:hover {
     background-color: #6b55f9;
     color: white;
-    transform:scaleZ(1.1);
+    transform: scaleZ(1.1);
+}
 
+.badge {
+    background-color: lightgreen;
+}
+
+.badge-no {
+    background-color: red;
+    color: #fff;
 }

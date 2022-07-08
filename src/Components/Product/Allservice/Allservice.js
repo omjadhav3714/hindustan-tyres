@@ -3,7 +3,7 @@
 import "../../service.css";
 import React, { useEffect, useState } from 'react';
 import { db } from "../../../firebase";
-import './allservice.css'
+import './allservice.css';
 
 const Allservice = () => {
   var [data1, onclick1] = useState([]);
@@ -51,13 +51,13 @@ const Allservice = () => {
               <h2>{item.brand} Tyres</h2>
 
               <div class="size1">
-                <h3>size1 :</h3>
-                <span>7</span>
-                <span>8</span>
-                <span>9</span>
-                <span>10</span>
+                <h3>Available : </h3>
+                {item.available == 'Yes' ?
+                  (<p className="badge">Yes</p>) :
+                  (<p className="badge badge-no">No</p>)
+                }
               </div>
-              <a href={"/product-detail/"+item.id}>View more</a>
+              <a href={"/product-detail/" + item.id}>View more</a>
             </div>
           </div>
         ))}

@@ -60,16 +60,9 @@ const ProductDetail = () => {
             ) : (
               <img src={tyre} className="prod_img" alt="" />
             )}
-            <p className="pick">choose size</p>
+            <p className="pick">Sizes</p>
             <div className="sizes">
-              <div className="size">5</div>
-              <div className="size">6</div>
-              <div className="size">7</div>
-              <div className="size">8</div>
-              <div className="size">9</div>
-              <div className="size">10</div>
-              <div className="size">11</div>
-              <div className="size">12</div>
+              {data.size}
             </div>
           </div>
           <div className="product">
@@ -78,35 +71,50 @@ const ProductDetail = () => {
             <h2 className="prod_head">Available : {data.available}</h2>
             <p className="desc">{data.description}</p>
             {/* <br/> */}
-            <div className="tab">  
-          <table className="tablemain">
-      <thead>
-        <tr>
-          <th className="firsttab">CODE</th>
-          <th>STOCK</th>
+            <div className="tab">
+              <table className="tablemain">
+                <thead>
+                  <tr>
+                    <th className="firsttab">CODE</th>
+                    <th>STOCK</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>CES-9000</td>
+                    <td>50mt</td>
+                  </tr>
+                  <tr>
+                    <td>CES-9000</td>
+                    <td>50mt</td>
+                  </tr>
+                  <tr>
+                    <td>CES-9000</td>
+                    <td>50mt</td>
+                  </tr>
+                  <tr>
+                    <td>CES-9000</td>
+                    <td>50mt</td>
+                  </tr>
+                  <tr>
+                    <td>CES-9000</td>
+                    <td>50mt</td>
+                  </tr>
+                  <tr>
+                    <td>CES-9000</td>
+                    <td>50mt</td>
+                  </tr>
+                  <tr>
+                    <td>CES-9000</td>
+                    <td>50mt</td>
+                  </tr>
+                  <tr>
+                    <td>CES-9000</td>
+                    <td>50mt</td>
+                  </tr>
 
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>CES-9000</td>
-          <td>50mt</td>
-
-        </tr>
-           <tr>
-          <td>CES-9000</td>
-          <td>50mt</td>
-          </tr>
-
-        
-      </tbody>
-    </table>
-    </div>
-            <div className="buttons">
-              <button className="add">Add to Cart</button>
-              <button className="like">
-                <span>♥</span>
-              </button>
+                </tbody>
+              </table>
             </div>
           </div>
         </div>
