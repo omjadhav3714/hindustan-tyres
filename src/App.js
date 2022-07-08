@@ -12,18 +12,16 @@ function App() {
   return (
     <>
       <Header />
-
       <Switch>
         <Route exact path="/" component={Main} />
         <Route exact path="/product-detail/:id" component={ProductDetail} />
         <Route exact path="/contactus" component={Contactus} />
-        <Route exact path="/allservice" component={Allservice}/>
-        <Route exact path="/product-static/:id" component={Static_Detail}/>
-        
+        <Route exact path="/allservice" component={Allservice} />
+        <Route exact path="/product-static/:id" component={Static_Detail} />
         <Route exact path="/aboutus" component={About} />
       </Switch>
-      
-      <Footer/>
+
+      <Footer />
     </>
   );
 }

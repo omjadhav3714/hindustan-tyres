@@ -61,12 +61,6 @@ const Main = () => {
             <div class="img-place mb-3">
               <img src="../assets/img/testi_image.png" alt="" />
             </div>
-            {/* <a href="#" class="btn btn-primary">
-              More Details
-            </a>
-            <a href="#" class="btn btn-outline border ml-2">
-              Success Stories
-            </a> */}
           </div>
         </div>
       </div>
