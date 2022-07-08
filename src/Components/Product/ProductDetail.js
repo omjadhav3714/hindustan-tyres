@@ -60,9 +60,9 @@ const ProductDetail = () => {
             ) : (
               <img src={tyre} className="prod_img" alt="" />
             )}
-            <p className="pick">Sizes</p>
+            <p className="pick">Contact Dealer</p>
             <div className="sizes">
-              {data.size}
+              <a className="cDealer" href="tel:+91 80878 36800">Nikhil Gaikar</a>
             </div>
           </div>
           <div className="product">
@@ -73,46 +73,91 @@ const ProductDetail = () => {
             {/* <br/> */}
             <div className="tab">
               <table className="tablemain">
-                <thead>
-                  <tr>
-                    <th className="firsttab">CODE</th>
-                    <th>STOCK</th>
-                  </tr>
-                </thead>
                 <tbody>
                   <tr>
-                    <td>CES-9000</td>
-                    <td>50mt</td>
-                  </tr>
-                  <tr>
-                    <td>CES-9000</td>
-                    <td>50mt</td>
-                  </tr>
-                  <tr>
-                    <td>CES-9000</td>
-                    <td>50mt</td>
-                  </tr>
-                  <tr>
-                    <td>CES-9000</td>
-                    <td>50mt</td>
-                  </tr>
-                  <tr>
-                    <td>CES-9000</td>
-                    <td>50mt</td>
-                  </tr>
-                  <tr>
-                    <td>CES-9000</td>
-                    <td>50mt</td>
-                  </tr>
-                  <tr>
-                    <td>CES-9000</td>
-                    <td>50mt</td>
-                  </tr>
-                  <tr>
-                    <td>CES-9000</td>
-                    <td>50mt</td>
+                    <th>Load Index</th>
+                    <td>{data.lIndex}</td>
                   </tr>
 
+                  <tr>
+                    <th>Maximum Load</th>
+                    <td>{data.mLoad}</td>
+                  </tr>
+
+                  <tr>
+                    <th>Tubeless</th>
+                    <td>{data.tubeless}</td>
+                  </tr>
+
+                  <tr>
+                    <th>Maximum Speed Limit</th>
+                    <td>{data.mSpeedLimit}</td>
+                  </tr>
+
+                  <tr>
+                    <th>Construction Type</th>
+                    <td>{data.cType}</td>
+                  </tr>
+
+                  <tr>
+                    <th>Tyre Weight</th>
+                    <td>{data.tWeight}</td>
+                  </tr>
+
+                  <tr>
+                    <th>Warranty Summary</th>
+                    <td>{data.wSummary}</td>
+                  </tr>
+
+                  <tr>
+                    <th>Speed Rating</th>
+                    <td>{data.speedRating}</td>
+                  </tr>
+
+                  <tr>
+                    <th>Category</th>
+                    <td>{data.category}</td>
+                  </tr>
+
+                  <tr>
+                    <th>Width</th>
+                    <td>{data.width}</td>
+                  </tr>
+
+                  <tr>
+                    <th>Size</th>
+                    <td>{data.size}</td>
+                  </tr>
+
+                  <tr>
+                    <th>Profile</th>
+                    <td>{data.profile}</td>
+                  </tr>
+
+                  <tr>
+                    <th>Vehicle Models</th>
+                    <td>{data.vModels}</td>
+                  </tr>
+
+                  <tr>
+                    <th>Rim</th>
+                    <td>{data.rim}</td>
+                  </tr>
+
+                  <tr>
+                    <th>Comfort</th>
+                    <td>{data.comfort}</td>
+                  </tr>
+
+                  <tr>
+                    <th>Grip</th>
+                    <td>{data.grip}</td>
+                  </tr>
+
+                  <tr>
+                    <th>Stability</th>
+                    <td>{data.stability}</td>
+                  </tr>
                 </tbody>
               </table>
             </div>
