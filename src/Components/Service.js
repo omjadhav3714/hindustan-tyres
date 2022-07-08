@@ -61,7 +61,7 @@ const Service = () => {
 
             <div class="contentBx">
               <h2>{item.name}</h2>
-              <a href={"/allservice"}>View more</a>
+              <a href={"/product-static/"+item.id}>View more</a>
             </div>
           </div>
         ))}
