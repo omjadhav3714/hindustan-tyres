@@ -6,23 +6,23 @@ import '../Components/css/bootstrap.css';
 import { db } from '../firebase';
 
 const Contactus = () => {
-  const [name , setName] = useState("");
-  const [email , setEmail] = useState("");
-  const [message , setMessage] = useState("");
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
 
-  const handleSubmit = (e) =>{
+  const handleSubmit = (e) => {
     e.preventDefault();
     db.collection("contact")
-    .add({
-      name: name,
-      email: email,
-      message : message,
-    })
-    .then(() =>{
-      alert("Successfully Submitted");
-    }).catch((error)=>{
-      alert(error.message);
-    });
+      .add({
+        name: name,
+        email: email,
+        message: message,
+      })
+      .then(() => {
+        alert("Successfully Submitted");
+      }).catch((error) => {
+        alert(error.message);
+      });
 
     setName("");
     setEmail("");
@@ -62,10 +62,10 @@ const Contactus = () => {
 
                 <form onSubmit={handleSubmit}>
                   <div class="py-2">
-                    <input type="text" class="form-control" placeholder="Full name"  value={name} onChange={(e) => setName(e.target.value)} />
+                    <input type="text" class="form-control" placeholder="Full name" value={name} onChange={(e) => setName(e.target.value)} />
                   </div>
                   <div class="py-2">
-                    <input type="text" class="form-control" placeholder="Email"  value={email} onChange={(e) => setEmail(e.target.value)} />
+                    <input type="text" class="form-control" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
                   </div>
                   <div class="py-2">
                     <textarea rows="6" class="form-control" placeholder="Enter message" value={message} onChange={(e) => setMessage(e.target.value)} ></textarea>

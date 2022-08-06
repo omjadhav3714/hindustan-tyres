@@ -13,52 +13,52 @@ import Testimonals from "./Testimonals";
 const Main = () => {
   return (
     <>
-      <div class="page-banner home-banner">
-        <div class="container h-100">
-          <div class="row align-items-center h-100">
-            <div class="col-lg-6 py-3 wow fadeInUp">
-              <h1 class="mb-4 capitalize">TYRE SAFETY FOR ALL DRIVERS</h1>
-              <p class="text-lg mb-5">
+      <div className="page-banner home-banner">
+        <div className="container h-100">
+          <div className="row align-items-center h-100">
+            <div className="col-lg-6 py-3 wow fadeInUp">
+              <h1 className="mb-4 capitalize">TYRE SAFETY FOR ALL DRIVERS</h1>
+              <p className="text-lg mb-5">
                 We provides a range of tyres which are compatible with various
                 make and models.
               </p>
 
-              <a href="#" class="text-secondary  btn-outline border btn ">
+              <a href="#" className="text-secondary  btn-outline border btn ">
                 More Info
               </a>
-              <a href="#" class="btn btn-primary btn-split ml-2">
+              <a href="#" className="btn btn-primary btn-split ml-2">
                 Watch Video{" "}
-                <div class="fab">
-                  <span class="mai-play"></span>
+                <div className="fab">
+                  <span className="mai-play"></span>
                 </div>
               </a>
             </div>
-            <div class="col-lg-6 py-3 wow zoomIn">
-              <div class="img-place">
+            <div className="col-lg-6 py-3 wow zoomIn">
+              <div className="img-place">
                 <img src={bg1} alt="" />
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 py-3 wow zoomIn">
-            <div class="img-place text-center">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-6 py-3 wow zoomIn">
+            <div className="img-place text-center">
               <img src={bg2} alt="" />
             </div>
           </div>
-          <div class="col-lg-6 py-3 wow fadeInRight">
-            <h2 class="title-section">
-              We're <span class="marked">Dynamic</span> Team of Creatives People
+          <div className="col-lg-6 py-3 wow fadeInRight">
+            <h2 className="title-section">
+              We're <span className="marked">Dynamic</span> Team of Creatives People
             </h2>
-            <div class="divider"></div>
+            <div className="divider"></div>
             <p>
               We are customer centric service provider and we also offer
               re-trading & re-soling of tyres, on-site delivery of tyres and
               fortnight post sale services.
             </p>
-            <div class="img-place mb-3">
+            <div className="img-place mb-3">
               <img src="../assets/img/testi_image.png" alt="" />
             </div>
           </div>
