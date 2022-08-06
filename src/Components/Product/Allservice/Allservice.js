@@ -31,36 +31,40 @@ const Allservice = () => {
   }
   return (
     <>
-      <div className="button">
-        <button onClick={() => onclick("Apollo")} className="but">Apollo</button>
-        <button onClick={() => onclick("BridgeStone")} className="but">Bridgestone</button>
-        <button onClick={() => onclick("CEAT")} className="but">Ceat</button>
-        <button onClick={() => onclick("JK Tyres")} className="but">Jk tryes</button>
-        <button onClick={() => onclick("Ultramile")} className="but">Ultramile</button>
-        <button onClick={() => onclick("Yokohama")} className="but">Yokohama</button>
-      </div>
-      <h1 className="heading">Tyres</h1>
-      <div class="container1">
-        {data1.map((item) => (
-          <div class="card1">
-            <div class="imgBx">
-              <img src={item.image[0].url} alt="tyre" />
-            </div>
+      <div data-testid='allservice'>
 
-            <div class="contentBx">
-              <h2>{item.brand} Tyres</h2>
 
-              <div class="size1">
-                <h3>Available : </h3>
-                {item.available == 'Yes' ?
-                  (<p className="badge">Yes</p>) :
-                  (<p className="badge badge-no">No</p>)
-                }
+        <div className="button">
+          <button onClick={() => onclick("Apollo")} className="but">Apollo</button>
+          <button onClick={() => onclick("BridgeStone")} className="but">Bridgestone</button>
+          <button onClick={() => onclick("CEAT")} className="but">Ceat</button>
+          <button onClick={() => onclick("JK Tyres")} className="but">Jk tryes</button>
+          <button onClick={() => onclick("Ultramile")} className="but">Ultramile</button>
+          <button onClick={() => onclick("Yokohama")} className="but">Yokohama</button>
+        </div>
+        <h1 className="heading">Tyres</h1>
+        <div className="container1">
+          {data1.map((item) => (
+            <div className="card1">
+              <div className="imgBx">
+                <img src={item.image[0].url} alt="tyre" />
               </div>
-              <a href={"/product-detail/" + item.id}>View more</a>
+
+              <div className="contentBx">
+                <h2>{item.brand} Tyres</h2>
+
+                <div className="size1">
+                  <h3>Available : </h3>
+                  {item.available == 'Yes' ?
+                    (<p className="badge">Yes</p>) :
+                    (<p className="badge badge-no">No</p>)
+                  }
+                </div>
+                <a href={"/product-detail/" + item.id}>View more</a>
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </>
   );

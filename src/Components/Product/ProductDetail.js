@@ -35,7 +35,7 @@ const ProductDetail = () => {
   return (
     <>
 
-      <div className="container2">
+      <div className="container2" data-testid='productdetail'>
         <div className="cards">
           <div className="images">
 
