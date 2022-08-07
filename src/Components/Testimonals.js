@@ -12,7 +12,7 @@ const Testimonals = () => {
     <>
       <br />
       <br />
-      <div className="container myswiper">
+      <div className="container myswiper" data-testid='testimonials'>
         <center>
           <h1>See What Our Customers Say About Us</h1>
         </center>

@@ -51,20 +51,22 @@ const Service = () => {
   ];
   return (
     <>
-      <h1 className="heading">Tyres</h1>
-      <div class="container1">
-        {data.map((item) => (
-          <div class="card1">
-            <div class="imgBx">
-              <img src={item.image} alt="tyre" />
-            </div>
+      <div data-testid='service'>
+        <h1 className="heading">Tyres</h1>
+        <div className="container1">
+          {data.map((item) => (
+            <div className="card1">
+              <div className="imgBx">
+                <img src={item.image} alt="tyre" />
+              </div>
 
-            <div class="contentBx">
-              <h2>{item.name}</h2>
-              <a href={"/product-static/"+item.id}>View more</a>
+              <div className="contentBx">
+                <h2>{item.name}</h2>
+                <a href={"/product-static/" + item.id}>View more</a>
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </>
   );
